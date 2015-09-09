@@ -1,0 +1,151 @@
+.top {
+	height: 38px;
+	padding-top: 9px;
+	background: url('../images/top.png');
+	border-radius: 10px;
+	width: 274px;
+	top: 20px;
+	left: 50%;
+	margin-left: -147px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	z-index: 3;
+}
+
+
+.top>a{
+	float: left;
+	margin-right: 8px;
+}
+
+.info {
+	height: 30px;
+	line-height: 30px;
+	width: 44px;
+	text-align: center;
+	background: #fff;
+	float: left;
+	border-radius: 6px;
+	color: #ed1c24 !important;
+	font-size: 15px;
+	display: block;
+}
+
+.favorite {
+	height: 30px;
+	width: 30px;
+	background: #fff;
+	background-image: url("../images/heart.png");
+	background-position: center 6px;
+	background-repeat: no-repeat;
+	float: left;
+	border-radius: 6px;
+	display: block;
+}
+
+.favorite:hover{
+	background-position: center -54px;
+}
+
+.favorite2{
+	background-position: center -54px;
+}
+
+.top .favorite{
+	margin-right: 0;
+}
+.sbOptions{
+	left: 0;
+	padding-left: 0px;
+	list-style: none;
+}
+.sbHolder {
+  	height: 30px;
+	background: white;
+	position: relative;
+	width: 87px;
+	float: left;
+	margin-right: 8px;
+	border-radius: 5px;
+}
+.sbHolder .sbSelector {
+	line-height: 30px;
+	display: block;
+	outline: none;
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: none;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	color: #ed1c24;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.sbHolder .sbSelector:focus {
+  outline: none;
+}
+.sbHolder .sbOptions {
+	list-style: none;
+	left: 3px;
+	right: 3px;
+	top: 30px !important;
+	border-radius: 4px;
+	position: absolute;
+	bottom: auto !important;
+	z-index: 15;
+	overflow-y: none;
+	max-height: 1000px !important;
+	height: auto !important;
+}
+.sbHolder .sbOptions li {
+	background: #f7f7f7;
+	padding: 0 1px;
+	border-top: none;
+}
+
+.sbHolder .sbOptions li:last-child {
+	border-radius: 0 0 10px 10px;
+}
+.sbHolder .sbOptions li a {
+  padding: 7px 0px;
+  line-height: 18px;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  color: #808080;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial;
+}
+.sbHolder .sbOptions li:hover a{
+	color: #ed1c24;
+}
+.sbHolder .sbOptions li:hover{
+	background: #dddddd;
+}
+
+.sbHolder:focus {
+  outline: none;
+  color: #ed1c24;
+}
+.select_box+.sbHolder .sbOptions li a{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.flex-slide {
+	margin-left: 60px;
+}
+.top a:active{
+	background: #d6d6d6 !important;
+	color: #808080 !important;
+}
+.sbToggleOpen+a{
+	color:#808080!important;
+}
